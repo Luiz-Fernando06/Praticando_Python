@@ -2,5 +2,13 @@
 x = int(input("digite um numero: "))
 dobro = x * 2
 triplo = x * 3
-raiz_quadrada = x**(1/2) 
+raiz_quadrada = x**(1/2)
 print('O dobro de {} é {} e o seu triplo é {}. Já a sua raiz quadrada é {:.2f}'.format(x, dobro, triplo, raiz_quadrada))
+
+#Comentarios:
+
+#Caso as variaveis não sejam necessarias, faça isso:
+print("\nO dobro de {} é {} e o seu triplo é {}. \nJá a sua raiz quadrada é {:.2f}".format(x, (x*2), (x*3), (x**(1/2))))
+
+#A raiz quadrada tambem pode ser calculada com a função da potencia:
+print("Raiz quadrada é {:.2f}".format(pow(x, (1/2))))
