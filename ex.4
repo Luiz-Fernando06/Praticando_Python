@@ -1,4 +1,8 @@
+#metros para centimetros e milimetros 
 metros = float(input('digite um valor em metros: '))
 centimetros = metros * 100
 milimetros = metros * 1000
-print('O valor em metros convertido para centimetros é {}cm e convertido para milimetro é {}mm'.format(centimetros, milimetros))
+print('O valor em metros convertido para centimetros é {:.0f}cm e convertido para milimetro é {:.0f}mm'.format(centimetros, milimetros))
+
+#Complementar:
+print("\n{:.0f}dm, {}dam, {}hm, {}km".format((metros*10), (metros/10), (metros/100), (metros/1000)))
