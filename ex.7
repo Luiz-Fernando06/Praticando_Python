@@ -1,0 +1,7 @@
+#area e quantidade de tinta
+largura = float(input('Digite a largura da parede: '))
+altura = float(input('Digite a altura da parede: '))
+area = largura * altura 
+quantidade_tinta = area / 2
+print("A largura da parede foi {}m, e a sua altura foi de {}m, contudo sua area".format(largura, altura), end=" ")
+print("foi de {}m^2, e a quantidade de tinta usada foi de {:.1f} litros".format(area, quantidade_tinta))
