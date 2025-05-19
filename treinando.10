@@ -1,0 +1,6 @@
+#Escolhendo um número 
+import random #Biblioteca aleatoria
+n1 = random.random() #Escolhe um número aleatorio
+n2 = random.randint(1, 10) #Escolhe um numero aleatorio entre 1 a 10
+print(n1,",", n2)
+
