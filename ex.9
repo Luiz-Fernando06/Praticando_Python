@@ -1,5 +1,4 @@
 #aumento
-salario = float(input('Digite seu salario: '))
-aumento = salario * 0.15
-salario_aumento = salario + aumento
-print("Seu salario com aumento foi de R${:.2f}".format(salario_aumento))
+salario = float(input('Digite seu salario: R$'))
+aumento = salario + (salario * 15/100)
+print("Seu salario com 15% de aumento foi de R${:.2f}".format(aumento))
