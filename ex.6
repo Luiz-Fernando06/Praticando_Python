@@ -1,4 +1,14 @@
-#Quanto eu tenho na carteira e quantos dolares posso comprar
+#Real para Dolar
 carteira = float(input("Quanto de dinheiro se tem na carteira? R$"))
 dolar = carteira / 5.66 #Dolar atualmente em 2025
-print('Com R${:.2f} você pode comprar US${:.2f}'.format(carteira, dolar))
+print('Com R${:.2f} você pode comprar US${:.2f}'.format(carteira, dolar)) 
+
+#complementares:
+
+#Dolar para Real
+print("-"*45)
+print("Com U${:.2f} você pode comprar R${:.2f}".format(carteira, (carteira * 5.66)))
+print("-"*45)
+
+#Real para Euro
+print('Com R${:.2f} você pode comprar E${:.2f}'.format(carteira, (carteira / 6.33)))
