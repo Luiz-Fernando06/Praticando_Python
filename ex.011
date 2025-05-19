@@ -1,0 +1,7 @@
+#Alugel de carro
+dias = int(input("Digite a quantidade de dias alugados: "))
+km = float(input("Digite a quantidade de km percorridos: "))
+
+#p(d) = a*d | p(km) = a*km -> p(d) + p(km)
+preco = (60 * dias) + (0.15 * km) 
+print("O preço a pagar é de R${:.2f}".format(preco))
