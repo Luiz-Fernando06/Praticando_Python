@@ -1,0 +1,5 @@
+#Hipotenusa
+from math import hypot,floor
+x = float(input("Digite o comprimento do cateto oposto: ")) #cateto oposto
+y = float(input("Digite o comprimento do cateto adjacente: ")) #cateto adjacente
+print("O comprimento da sua hipotenusa é {}".format(floor(hypot(x, y))))
