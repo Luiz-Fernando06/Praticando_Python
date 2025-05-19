@@ -1,16 +1,18 @@
-n1 = int(input('Digite um numero para ver sua tabuada: '))
+n1 = int(input('\nDigite um numero para ver sua tabuada: '))
+
+print('\n')
 
 #Primeira forma de se fazer (Mais chato e lento)
 print('Primeira forma de se fazer (Mais chato e lento):')
 print('{} x {:2} = {}'.format(n1, 1, n1*1))
-print('{} x {} = {}'.format(n1, 2, n1*2))
-print('{} x {} = {}'.format(n1, 3, n1*3))
-print('{} x {} = {}'.format(n1, 4, n1*4))
-print('{} x {} = {}'.format(n1, 5, n1*5))
-print('{} x {} = {}'.format(n1, 6, n1*6))
-print('{} x {} = {}'.format(n1, 7, n1*7))
-print('{} x {} = {}'.format(n1, 8, n1*8))
-print('{} x {} = {}'.format(n1, 9, n1*9))
+print('{} x {:2} = {}'.format(n1, 2, n1*2))
+print('{} x {:2} = {}'.format(n1, 3, n1*3))
+print('{} x {:2} = {}'.format(n1, 4, n1*4))
+print('{} x {:2} = {}'.format(n1, 5, n1*5))
+print('{} x {:2} = {}'.format(n1, 6, n1*6))
+print('{} x {:2} = {}'.format(n1, 7, n1*7))
+print('{} x {:2} = {}'.format(n1, 8, n1*8))
+print('{} x {:2} = {}'.format(n1, 9, n1*9))
 print('{} x {} = {}'.format(n1, 10, n1*10))
 
 print('\n')
@@ -19,5 +21,7 @@ print('\n')
 print('Segunda forma de se fazer (Mais rapido, so que exige mais conhecimento):')
 tabuada = 1
 while tabuada <= 10:
-  print('{} x {} = {}'.format(n1, tabuada, n1*tabuada))
-  tabuada += 1 
+  print('{} x {:2} = {}'.format(n1, tabuada, n1*tabuada))
+  tabuada += 1
+
+#Obs: O {:2} serve para deixar todas os numeros com 2 digitos para ficar todos alinhados com o resultado do 10
