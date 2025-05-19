@@ -1,0 +1,17 @@
+#Duas maneira de importa modulos:
+# import (..) -> importa toda função de uma biblioteca (Puxa mais memória)
+# from (..) import (..) -> importa uma funcão especifica da biblioteca (Economiza mais memória)
+
+# Ex:
+import math #biblioteca de funções matematicas
+n1 = int(input("Digite um número: "))
+raiz = math.sqrt(n1) #sqrt calcula a raiz quadrada
+print("A raiz de {} é igual a {:.2f}".format(n1, raiz)) 
+print("A raiz de {} é igual a {}".format(n1, math.ceil(raiz))) #ceil arredonda o número para acima
+print("A raiz de {} é igual a {}".format(n1, math.floor(raiz))) #floor arredonda o número para abaixo
+
+
+# Ex:
+from math import sqrt, floor 
+raiz = sqrt(n1) #Se digita sqrt sem o math, pois só importei essa função em especifico
+print("A raiz quadrada é {}".format(floor(raiz)))
