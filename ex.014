@@ -1,0 +1,7 @@
+#Seno, cos, tan
+from math import sin, cos, tan, radians
+angulo = int(input("Digite um ângulo: "))
+seno = sin(radians(angulo))
+cos = cos(radians(angulo))
+tangente = tan(radians(angulo))
+print("O ângulo de {} tem o seno de {:.2f}, o cosseno de {:.2f} e a tangente de {:.2f}".format(angulo, seno, cos, tangente))
